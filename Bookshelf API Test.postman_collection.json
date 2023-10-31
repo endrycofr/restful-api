@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "44afd2ca-a85d-4622-b419-b78ba60c468e",
+		"_postman_id": "0c94261e-0ac9-4a5e-8b87-eeafcd033d8e",
 		"name": "Bookshelf API Test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17094906"
@@ -57,7 +57,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"ipa\",\r\n    \"year\": 2012,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"backend\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 120,\r\n    \"readPage\": 100,\r\n\t\"reading\": false\r\n\t\r\n}",
+					"raw": "{\r\n    \"name\": \"ipa\",\r\n    \"year\": 2021,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"dicoding\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 90,\r\n    \"reading\": false\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -129,7 +129,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"ips\",\r\n    \"year\": 2018,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"backend\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"name\": \"ips\",\r\n    \"year\": 2021,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"dicoding\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -190,7 +190,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n    \"year\": 2018,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"backend\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"year\": 2021,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"dicoding\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -251,7 +251,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"ips\",\r\n    \"year\": 2018,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"backend\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 80,\r\n    \"readPage\": 90,\r\n    \"reading\": false\r\n}",
+					"raw": "{\r\n   \r\n    \"name\": \"ips\",\r\n    \"year\": 2021,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"dicoding\",\r\n    \"pageCount\": 80,\r\n    \"readPage\": 90,\r\n    \"reading\": true\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -421,7 +421,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/books/M-N1OfFqsEMQOqRNzEkWu",
+					"raw": "http://localhost:9000/books/bwAx2Ellgm2ysFeQ",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -429,7 +429,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"M-N1OfFqsEMQOqRNzEkWu"
+						"bwAx2Ellgm2ysFeQ"
 					]
 				}
 			},
@@ -512,7 +512,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wVWusS39zwQlFIu5C",
+					"raw": "http://localhost:9000/books/nhEiFVpPSstuotrX",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -520,7 +520,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wVWusS39zwQlFIu5C"
+						"nhEiFVpPSstuotrX"
 					]
 				}
 			},
@@ -564,7 +564,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wV",
+					"raw": "http://localhost:9000/books/dicoding",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -572,7 +572,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wV"
+						"dicoding"
 					]
 				}
 			},
@@ -652,7 +652,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"hukum\",\r\n    \"year\": 2017,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"system\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"name\": \"math\",\r\n    \"year\": 2013,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"keris\",\r\n    \"pageCount\": 101,\r\n    \"readPage\": 20,\r\n    \"reading\": false\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -660,7 +660,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wVWusS39zwQlFIu5C",
+					"raw": "http://localhost:9000/books/bwAx2Ellgm2ysFeQ",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -668,7 +668,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wVWusS39zwQlFIu5C"
+						"bwAx2Ellgm2ysFeQ"
 					]
 				}
 			},
@@ -714,7 +714,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n    \"year\": 2017,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"system\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"year\": 2013,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"keris\",\r\n    \"pageCount\": 101,\r\n    \"readPage\": 20,\r\n    \"reading\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -722,7 +722,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wVWusS39zwQlFIu5C",
+					"raw": "http://localhost:9000/books/bwAx2Ellgm2ysFeQ",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -730,7 +730,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wVWusS39zwQlFIu5C"
+						"bwAx2Ellgm2ysFeQ"
 					]
 				}
 			},
@@ -776,7 +776,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"ips\",\r\n    \"year\": 2018,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"backend\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 80,\r\n    \"readPage\": 90,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n\r\n    \"name\": \"math\",\r\n    \"year\": 2013,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"keris\",\r\n    \"pageCount\": 80,\r\n    \"readPage\": 90,\r\n    \"reading\": false\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -784,7 +784,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wVWusS39zwQlFIu5C",
+					"raw": "http://localhost:9000/books/bwAx2Ellgm2ysFeQ",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -792,7 +792,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wVWusS39zwQlFIu5C"
+						"bwAx2Ellgm2ysFeQ"
 					]
 				}
 			},
@@ -837,7 +837,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"hukum\",\r\n    \"year\": 2017,\r\n    \"author\": \"papa peto\",\r\n    \"summary\": \"system\",\r\n    \"publisher\": \"Dicoding \",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"name\": \"math\",\r\n    \"year\": 2013,\r\n    \"author\": \"popay\",\r\n    \"summary\": \"pelindo\",\r\n    \"publisher\": \"keris\",\r\n    \"pageCount\": 101,\r\n    \"readPage\": 20,\r\n    \"reading\": false\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -845,7 +845,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wV",
+					"raw": "http://localhost:9000/books/dicoding",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -853,7 +853,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wV"
+						"dicoding"
 					]
 				}
 			},
@@ -905,7 +905,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/books/M-N1OfFqsEMQOqRNzEkWu",
+					"raw": "http://localhost:9000/books/bwAx2Ellgm2ysFeQ",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -913,7 +913,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"M-N1OfFqsEMQOqRNzEkWu"
+						"bwAx2Ellgm2ysFeQ"
 					]
 				}
 			},
@@ -965,7 +965,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/books/iUF0wVWusS39zwQlFIu5C",
+					"raw": "http://localhost:9000/books/nhEiFVpPSstuotrX",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -973,7 +973,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"iUF0wVWusS39zwQlFIu5C"
+						"nhEiFVpPSstuotrX"
 					]
 				}
 			},
@@ -1017,7 +1017,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/books/M-N1OfFqsEMQOqRNzE",
+					"raw": "http://localhost:9000/books/dicoding",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -1025,7 +1025,7 @@
 					"port": "9000",
 					"path": [
 						"books",
-						"M-N1OfFqsEMQOqRNzE"
+						"dicoding"
 					]
 				}
 			},
@@ -1049,7 +1049,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"apel\",\r\n    \"year\": 1900,\r\n    \"author\": \"jason\",\r\n    \"summary\": \"ML\",\r\n    \"publisher\": \"pelindo\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"name\": \"bimoli\",\r\n    \"year\": 2010,\r\n    \"author\": \"harman\",\r\n    \"summary\": \"surya\",\r\n    \"publisher\": \"kencana\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 100,\r\n    \"reading\": true\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1088,7 +1088,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Kelas Dicoding\",\r\n    \"year\": 2018,\r\n    \"author\": \"agus\",\r\n    \"summary\": \"back end\",\r\n    \"publisher\": \"dicoding\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 99,\r\n    \"reading\": true\r\n}",
+					"raw": "{\r\n    \"name\": \"Kelas Dicoding\",\r\n    \"year\": 2003,\r\n    \"author\": \"asep\",\r\n    \"summary\": \"slamet\",\r\n    \"publisher\": \"kardon\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 99,\r\n    \"reading\": true\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1127,7 +1127,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"dicoding Jobs\",\r\n    \"year\": 2021,\r\n    \"author\": \"mike\",\r\n    \"summary\": \"AI\",\r\n    \"publisher\": \"dicoding academy\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 0,\r\n    \"reading\": false\r\n}",
+					"raw": "{\r\n    \"name\": \"dicoding Jobs\",\r\n    \"year\": 2006,\r\n    \"author\": \"solikin\",\r\n    \"summary\": \"backend\",\r\n    \"publisher\": \"sempurna\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 0,\r\n    \"reading\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1166,7 +1166,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"{{newName}}\",\r\n    \"year\": {{newYear}},\r\n    \"author\": \"{{newAuthor}}\",\r\n    \"summary\": \"{{newSummary}}\",\r\n    \"publisher\": \"{{newPublisher}}\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 0,\r\n    \"reading\": false\r\n}",
+					"raw": "{\r\n    \"name\": \"batman\",\r\n    \"year\": 2007,\r\n    \"author\": \"suharti\",\r\n    \"summary\": \"superhero\",\r\n    \"publisher\": \"WB\",\r\n    \"pageCount\": 100,\r\n    \"readPage\": 0,\r\n    \"reading\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1174,12 +1174,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:{{port}}/books",
+					"raw": "http://localhost:9000/books",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "{{port}}",
+					"port": "9000",
 					"path": [
 						"books"
 					]
